@@ -5,7 +5,7 @@ on:
     branches:
     - master
   schedule:
-    - cron: "0 21 * * 4"
+    - cron: "00 22 * * 3"
 
 jobs:
   deploy:
